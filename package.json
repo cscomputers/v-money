@@ -1,0 +1,19 @@
+{
+  "name": "v-money",
+  "version": "1.0.0",
+  "description": "Simples Vue Currency Mask",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cacskate/v-money.git"
+  },
+  "author": "Cacskate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cacskate/v-money/issues"
+  },
+  "homepage": "https://github.com/Cacskate/v-money#readme"
+}
