@@ -8,7 +8,7 @@ var maskOpt;
 export default {
   update: function(el, binding, vnode) {
     const obj = binding.value;
-    const value = obj.value;
+    const value = obj.value ? obj.value : 0;
     var positionFromEnd = value.length - maskInput.selectionEnd;
     vnode.context.data.value = format(value, maskOpt);
     positionFromEnd = Math.max(positionFromEnd, maskOpt.suffix.length); // right
